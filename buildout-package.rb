@@ -2,8 +2,8 @@ require 'formula'
 
 class BuildoutPackage < Formula
     homepage 'https://github.com/youngking/buildout-package'
-    url 'https://github.com/youngking/buildout-package.git', :tag => '2.3.1'
-    version '2.3.1'
+    url 'https://github.com/youngking/buildout-package.git', :tag => '2.4.5'
+    version '2.4.5'
 
     def install
      prefix.install "eggs"
